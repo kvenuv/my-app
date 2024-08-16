@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import PropsEx from './Components/PropsEx'
+import SampleCom from './ClassComponent/SampleCom'
+import SimpleState from './ClassComponent/SimpleState'
+import RootCom from './ClassComponent/RootCom'
+import LifeCycle from './LifeCycleMethod/LifeCycle'
+import SimpleApi from './ApiCalls/SimpleApi'
+import ContactManager from './FakeServer/ContactManager'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+function App(){
+  return(
+    <>
+   
+    
+    
+   <ContactManager></ContactManager>
+  
+   </>
+  )  
 }
+export default App
 
-export default App;
+
+
+
+
+
+// class App extends Component {
+//   render() {
+//     return (
+//       <div>
+        
+//         <h2>heading</h2>
+//       </div>
+//     )
+//   }
+// }
+// function CourseList(){
+//   return(
+//     <>
+   
+//     <ul>
+//     <li>html</li>
+//     <li>css</li>
+//     </ul>
+   
+//     </>
+//   )
+// }
+// export default App
+// export {CourseList}

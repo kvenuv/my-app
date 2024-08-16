@@ -1,0 +1,16 @@
+{
+  "ContactDetails": [
+    {
+      "id": "99af",
+      "cname": "Marripati Lokesh",
+      "cemail": "marripatilokesh237@gmail.com",
+      "cno": "09100656740"
+    },
+    {
+      "id": "99aa",
+      "cname": "pavan",
+      "cemail": "pavan@gmail.com",
+      "cno": "45678"
+    }
+  ]
+}
